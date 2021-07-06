@@ -127,6 +127,8 @@
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
+    <Content Include="HTMLServer.aspx" />
+    <Content Include="ManagingState.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
@@ -155,6 +157,7 @@
     <Content Include="Scripts\WebForms\WebForms.js" />
     <Content Include="Scripts\WebForms\WebParts.js" />
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
+    <Content Include="ServerControls.aspx" />
     <Content Include="ServerSide.aspx" />
     <Content Include="Site.Master" />
     <Content Include="ViewSwitcher.ascx" />
@@ -203,7 +206,28 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="HTMLServer.aspx.cs">
+      <DependentUpon>HTMLServer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HTMLServer.aspx.designer.cs">
+      <DependentUpon>HTMLServer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManagingState.aspx.cs">
+      <DependentUpon>ManagingState.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManagingState.aspx.designer.cs">
+      <DependentUpon>ManagingState.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ServerControls.aspx.cs">
+      <DependentUpon>ServerControls.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ServerControls.aspx.designer.cs">
+      <DependentUpon>ServerControls.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ServerSide.aspx.cs">
       <DependentUpon>ServerSide.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
